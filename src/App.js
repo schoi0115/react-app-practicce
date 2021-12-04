@@ -3,21 +3,33 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>
+          Practice Application
+        </h1>
       </header>
+      <li>
+        Came back from vacation
+      </li>
+      <li>
+        Choose a practice application type
+      </li>
+      <li>
+        Front End
+      </li>
+      <li>
+        Back End
+      </li>
+      <li>
+        Try clean code!
+      </li>
+      <li>
+        Try to deploy if you want, Git Hub or Heruko
+      </li>
+
+
+
     </div>
   );
 }
