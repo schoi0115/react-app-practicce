@@ -1,20 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './components/Header'
+import Vacation from './components/Vacation'
+import FrontEnd from './components/FrontEnd'
 
 function App() {
   return (
     <div>
       <header>
         <h1>
-          Practice Application
+          <Header />
         </h1>
       </header>
-      <li>
-        Came back from vacation
-      </li>
-      <li>
-        Choose a practice application type
-      </li>
+        <Vacation />
+        <FrontEnd />
+
+ 
       <li>
         Front End
       </li>
